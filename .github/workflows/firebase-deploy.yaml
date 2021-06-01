@@ -15,7 +15,7 @@ jobs:
     - name: Test the code
       run: npm test
     - name: Deploy to Firebase
-      uses: mohamed-atif/firebase-publish-react@v1.0
+      uses: mohammed-atif/firebase-publish-react@v1.0
       with:
         firebase-token: ${{ secrets.FIREBASE_TOKEN }}
         build-application: true
