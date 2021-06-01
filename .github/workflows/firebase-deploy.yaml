@@ -12,6 +12,7 @@ jobs:
         ref: main
     - name: Setup Node.js environment
       uses: actions/setup-node@v2.1.5
+    - name: Install Node Modules
       run: npm install
     - name: Test the code
       run: npm test
